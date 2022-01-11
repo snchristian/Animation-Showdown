@@ -1,65 +1,64 @@
 {
-    "fighters": [
-      {
-        "id": 1,
-        "fighter": "Bob Belcher",
-        "image":"https://pyxis.nymag.com/v1/imgs/080/8bb/ae7d1ed1b51f20a7e365e89b7cecc02650-10-bobs-burgers.2x.h473.w710.jpg",
-        "battle Cry":"Listen you all terible at what you do and I feel like I should tell you."
-      },
-      {
-        "id": 2,
-        "fighter": "Cheryl Tunt",
-        "image":"https://pyxis.nymag.com/v1/imgs/080/8bb/ae7d1ed1b51f20a7e365e89b7cecc02650-10-bobs-burgers.2x.h473.w710.jpg",
-        "battle Cry":"Your not My Supervisor"
-      },
-  
-      {
-        "id": 3,
-        "fighter": "Roger Smith",
-        "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Famericandad%2Fcomments%2F9mlcal%2Froger_as_the_whole_family_in_the_two_hundred%2F&psig=AOvVaw0cyaQ3y7tzCi4Ya5cmMeBX&ust=1640807615829000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKizgfGih_UCFQAAAAAdAAAAABAD",
-        "battle Cry":"It's 67 degrees Outside and I Hate You"
-      },
-      {
-        "id": 4,
-        "fighter": "Tabitha",
-        "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt14649632%2F&psig=AOvVaw2HB7ZaRi4gANqbMZrZcyVf&ust=1640809604569000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPj-jKWqh_UCFQAAAAAdAAAAABAD",
-        "battle Cry":"Ill claw your eyes out"
-      },
-      {
-        "id": 5,
-        "fighter": "Gir",
-        "image":"https://th.bing.com/th/id/R.e663b3b061185ed5c24b8554023159dc?rik=svITAUOKYjQW7g&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20121113172834%2fzimwiki%2fimages%2f9%2f90%2fEvil_GIR.png&ehk=0M1yHHwnRrItosHSu1Nu33F8NrwYLxsSVXnSLT5yqU8%3d&risl=&pid=ImgRaw&r=0",
-        "battle Cry":"Taco.Taco.Taco"
-      },
-      {
-        "id": 6,
-        "fighter": "Mandy",
-        "image":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d355a1ea-8fba-413a-8973-5eab99e7a046/d9u6qa3-2c8c9762-ff52-4786-b008-7c023d4a79b2.png/v1/fill/w_894,h_894,strp/mandy_vs_grim_by_waffengrunt_d9u6qa3-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2QzNTVhMWVhLThmYmEtNDEzYS04OTczLTVlYWI5OWU3YTA0NlwvZDl1NnFhMy0yYzhjOTc2Mi1mZjUyLTQ3ODYtYjAwOC03YzAyM2Q0YTc5YjIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.abAiv4BArjmDkTut6SpbJvXsSPKTdliuAAO4OvCDrhU",
-        "battle Cry":"Whatever you do, don't look behind you"
-      },
-      {
-        "id": 7,
-        "fighter": "Pam Poovey",
-        "image":"https://img2.looper.com/img/gallery/the-real-reason-pam-sounds-different-in-archer-exclusive/fighting-eating-and-bear-claws-1601480038.jpg",
-        "battle Cry":"Make sure you shut your dick holster"
-      },
-      {
-        "id": 8,
-        "fighter": "Linda Belcher",
-        "image":"https://vignette3.wikia.nocookie.net/bobsburgerpedia/images/e/e8/Linda-6.jpg/revision/latest/scale-to-width-down/113?cb=20150727150057",
-        "battle Cry":"I was going to punch you, but I'm holding wine"
-      },
-      {
-        "id": 9,
-        "fighter": "Bender Bending Rodriguez",
-        "image":"https://th.bing.com/th/id/R.7a84e0c1c8a3c264b925131f6edc50e3?rik=T%2bcxVoXEb8udEg&riu=http%3a%2f%2fs8625.chomikuj.pl%2fChomikImage.aspx%3fe%3dX5unX5LqMtMuyx77wsLwXipgv-_RflggziI4qkm04JyeqmsrU3JQJZqdHIkf_9qvdPFWTWX0jIVNwIkNxN3lAUQnKHkq3MwX8DoMFCBSXG1s4JKfln1lAkh9pZXMZckqX5p-ZyIRtnbmEGWxn-Rt8U3mMjTNnEocAeXmIjFaUc9AJlriGe4efa4RlFOisiHP5eymBc-Js_JrgDRYqwkUzaj5vG7jqH8Kw6_FZzjlGpuHnA0koVM1XgSD_RyNc-MrggD-2z8u97SmBEn-y7SF3nfCxvXjJ8trpf6VluqWkkSqVaBrPClP7gNTipOk9_m87K7n9xAc-l3m2v3N_Bnq_Q%26pv%3d2&ehk=ub99ZLa5oJKjx3sj606bsJLV%2bOv3xFXiTYoMzFBmXeo%3d&risl=&pid=ImgRaw&r=0",
-        "battle Cry":"Hey,sexy mama.Wanna kill all humans?"
-      },
-      {
-        "id": 10,
-        "fighter": "Steve Smith",
-        "image":"https://th.bing.com/th/id/R.410dec587acb9c0f646cbe3dfd333eca?rik=Qso3BHdtoMxBpQ&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2fvillains%2fimages%2f6%2f60%2fSteve-arino.png%2frevision%2flatest%3fcb%3d20110523154103&ehk=NeW6UQd96NPfHE7%2fM0VR5P8Sw6ciOyVwVyEL%2fWQgfh0%3d&risl=&pid=ImgRaw&r=0",
-        "battle Cry":"Lavate Las Manos!!! Lavate Las Manos"
-      } 
-    ]
-  }
+  "fighters": [
+    {
+      "id": 1,
+      "handle": "Bob Belcher",
+      "image": "https://pyxis.nymag.com/v1/imgs/080/8bb/ae7d1ed1b51f20a7e365e89b7cecc02650-10-bobs-burgers.2x.h473.w710.jpg",
+      "battleCry": "Listen you all terible at what you do and I feel like I should tell you."
+    },
+    {
+      "id": 2,
+      "handle": "Cheryl Tunt",
+      "image": "https://bestmoviecast.com/wp-content/uploads/2019/05/1-106-768x426.jpg",
+      "battleCry": "Your not My Supervisor"
+    },
+    {
+      "id": 3,
+      "handle": "Roger Smith",
+      "image": "https://coub-anubis-a.akamaized.net/coub_storage/coub/simple/cw_image/34e33221d22/b76c04fb6317ae0d7fa81/1473924227_00029.jpg",
+      "battleCry": "It's 67 degrees Outside and I Hate You"
+    },
+    {
+      "id": 4,
+      "handle": "Tabitha",
+      "image": "https://dg31sz3gwrwan.cloudfront.net/actor/382206/65799403_medium-optimized-2.jpg",
+      "battleCry": "Ill claw your eyes out"
+    },
+    {
+      "id": 5,
+      "handle": "Gir",
+      "image": "https://th.bing.com/th/id/R.e663b3b061185ed5c24b8554023159dc?rik=svITAUOKYjQW7g&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20121113172834%2fzimwiki%2fimages%2f9%2f90%2fEvil_GIR.png&ehk=0M1yHHwnRrItosHSu1Nu33F8NrwYLxsSVXnSLT5yqU8%3d&risl=&pid=ImgRaw&r=0",
+      "battleCry": "Taco.Taco.Taco"
+    },
+    {
+      "id": 6,
+      "handle": "Mandy",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d355a1ea-8fba-413a-8973-5eab99e7a046/d9u6qa3-2c8c9762-ff52-4786-b008-7c023d4a79b2.png/v1/fill/w_894,h_894,strp/mandy_vs_grim_by_waffengrunt_d9u6qa3-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2QzNTVhMWVhLThmYmEtNDEzYS04OTczLTVlYWI5OWU3YTA0NlwvZDl1NnFhMy0yYzhjOTc2Mi1mZjUyLTQ3ODYtYjAwOC03YzAyM2Q0YTc5YjIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.abAiv4BArjmDkTut6SpbJvXsSPKTdliuAAO4OvCDrhU",
+      "battleCry": "Whatever you do, don't look behind you"
+    },
+    {
+      "id": 7,
+      "handle": "Pam Poovey",
+      "image": "https://img2.looper.com/img/gallery/the-real-reason-pam-sounds-different-in-archer-exclusive/fighting-eating-and-bear-claws-1601480038.jpg",
+      "battleCry": "Make sure you shut your dick holster"
+    },
+    {
+      "id": 8,
+      "handle": "Linda Belcher",
+      "image": "https://vignette3.wikia.nocookie.net/bobsburgerpedia/images/e/e8/Linda-6.jpg/revision/latest/scale-to-width-down/113?cb=20150727150057",
+      "battleCry": "I was going to punch you, but I'm holding wine"
+    },
+    {
+      "id": 9,
+      "handle": "Bender Bending Rodriguez",
+      "image": "https://th.bing.com/th/id/R.7a84e0c1c8a3c264b925131f6edc50e3?rik=T%2bcxVoXEb8udEg&riu=http%3a%2f%2fs8625.chomikuj.pl%2fChomikImage.aspx%3fe%3dX5unX5LqMtMuyx77wsLwXipgv-_RflggziI4qkm04JyeqmsrU3JQJZqdHIkf_9qvdPFWTWX0jIVNwIkNxN3lAUQnKHkq3MwX8DoMFCBSXG1s4JKfln1lAkh9pZXMZckqX5p-ZyIRtnbmEGWxn-Rt8U3mMjTNnEocAeXmIjFaUc9AJlriGe4efa4RlFOisiHP5eymBc-Js_JrgDRYqwkUzaj5vG7jqH8Kw6_FZzjlGpuHnA0koVM1XgSD_RyNc-MrggD-2z8u97SmBEn-y7SF3nfCxvXjJ8trpf6VluqWkkSqVaBrPClP7gNTipOk9_m87K7n9xAc-l3m2v3N_Bnq_Q%26pv%3d2&ehk=ub99ZLa5oJKjx3sj606bsJLV%2bOv3xFXiTYoMzFBmXeo%3d&risl=&pid=ImgRaw&r=0",
+      "battleCry": "Hey,sexy mama.Wanna kill all humans?"
+    },
+    {
+      "id": 10,
+      "handle": "Steve Smith",
+      "image": "https://th.bing.com/th/id/R.410dec587acb9c0f646cbe3dfd333eca?rik=Qso3BHdtoMxBpQ&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2fvillains%2fimages%2f6%2f60%2fSteve-arino.png%2frevision%2flatest%3fcb%3d20110523154103&ehk=NeW6UQd96NPfHE7%2fM0VR5P8Sw6ciOyVwVyEL%2fWQgfh0%3d&risl=&pid=ImgRaw&r=0",
+      "battleCry": "Lavate Las Manos!!! Lavate Las Manos"
+    }
+  ]
+}
