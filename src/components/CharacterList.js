@@ -16,7 +16,7 @@ function CharacterList () {
                 />   
         )
     return (
-        <main>
+    <main>
         <FighterForm/>
         {displayFighters}
     </main>
