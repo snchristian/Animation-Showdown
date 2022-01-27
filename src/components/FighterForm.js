@@ -47,9 +47,10 @@ function FighterForm(){
     }
     return(
         <div>
-            <h1>New Fighter</h1>
-            <form onSubmit={handleSubmit}>
-            <label>Handle:
+           
+            <h1>New Fighter</h1> 
+            <form  className="inline" onSubmit={handleSubmit}>
+                <label>Handle:
                     <input
                     type="text"
                     name="handle"

@@ -1,12 +1,17 @@
 import React from "react"
-import {NavLink} from "react-router-dom"
+import{Nav,NavLink,NavMenu,} from "../style components/NavBarStyle"
 
 function Navbar(){
     return(
-        <div>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/showdown">Versus</NavLink>
-        </div>
+        <>
+        <Nav>
+        <NavLink to="/">Animation ShowDown</NavLink>
+        <NavMenu>
+        <NavLink to="/showdown" activestyle="true">Versus</NavLink>
+        <NavLink to="/CharcterList" activestyle="true">Fighters</NavLink>
+        </NavMenu>
+        </Nav>
+        </>
     )
 }
 
