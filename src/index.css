@@ -1,18 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body,html {
+  height:100%; 
+  margin: 0%;
+  background-color: #00FFFF;
+  /* background-image: url("/src/images/animation.jpg"); */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.image{
+  background-image: url("/src/images/animation.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-img{
-  width: 320px;
-  height:320px;
+.home{
+   text-align: center;
+   font-family: 'Modak', cursive;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: black;
+}
+
+.title{
+  font-family: 'Modak', cursive;
+  font-size: 50px;
+  color: black
+  
+}
+
+.begin{
+  padding:  10px 20px;
+  background-color: #9ACD32;
+  cursor: pointer;
+}
+
+.begin:hover{
+  background-color: tomato;
+}
+
+
+.inline{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.inline label{
+  margin: 5px 10px 5px;
+}
+
+.inline input{
+  margin: 5px 10px 5px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid black;
+
+}
+.inline button{
+  padding:  10px 20px;
+  background-color: #9ACD32;
+  color: white;
+  
+}
+
+.inline button:hover{
+  background-color: tomato;
+}
+
+.button{
+  display:flex;
+  margin-top: 30px;
+  float: left;
+  justify-content: space-around;
+  margin-left: 23%;
+  margin-right: 100px; 
+  margin-top: 120px;
+}
+
+.button1{
+  margin-top: 30px;
+  margin-top: 120px;
 }
