@@ -16,8 +16,7 @@ function Home(){
             <h1 className="title">Animation Showdown</h1>
             <h3>Who do think would win when we pit your favortie characters from different animated shows against each other</h3>
             <button className="begin" onClick={handleRedirect}>Start</button>
-            </div>
-            
+            </div> 
         </main>
 
     )

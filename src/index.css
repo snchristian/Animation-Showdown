@@ -1,33 +1,36 @@
 body,html {
   height:100%; 
   margin: 0%;
-  background-color: #00FFFF;
+  background-color: white;
   /* background-image: url("/src/images/animation.jpg"); */
 }
 
 .image{
+   text-align: center; 
+   font-family: 'Modak', cursive;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: azure;
+}
+
+.home {
   background-image: url("/src/images/animation.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.home{
-   text-align: center;
-   font-family: 'Modak', cursive;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   color: black;
+  color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .title{
   font-family: 'Modak', cursive;
   font-size: 50px;
-  color: black
-  
-}
+  color: black;
+   }
 
 .begin{
   padding:  10px 20px;
@@ -36,7 +39,7 @@ body,html {
 }
 
 .begin:hover{
-  background-color: tomato;
+  background-color: #00FFFF;
 }
 
 
@@ -69,15 +72,19 @@ body,html {
 
 .button{
   display:flex;
-  margin-top: 30px;
   float: left;
   justify-content: space-around;
   margin-left: 23%;
   margin-right: 100px; 
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 .button1{
-  margin-top: 30px;
-  margin-top: 120px;
+  margin-top: 110px;
+}
+
+.Winner{
+  text-align: center;
+  color: black;
+  font-family: 'Modak', cursive; 
 }
