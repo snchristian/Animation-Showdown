@@ -4,71 +4,78 @@
       "id": 1,
       "handle": "Bob Belcher",
       "image": "https://pyxis.nymag.com/v1/imgs/080/8bb/ae7d1ed1b51f20a7e365e89b7cecc02650-10-bobs-burgers.2x.h473.w710.jpg",
-      "battleCry": "Listen you all terible at what you do and I feel like I should tell you.",
-      "favoritesNumber":13
+      "battleCry": "Listen you all terrible at what you do and I feel like I should tell you",
+      "favoritesNumber": 13
     },
     {
       "id": 2,
       "handle": "Cheryl Tunt",
       "image": "https://bestmoviecast.com/wp-content/uploads/2019/05/1-106-768x426.jpg",
-      "battleCry": "Your not My Supervisor",
-      "favoritesNumber":22
+      "battleCry": "Your not My Supervisor.",
+      "favoritesNumber": 22
     },
     {
       "id": 3,
       "handle": "Roger Smith",
       "image": "https://coub-anubis-a.akamaized.net/coub_storage/coub/simple/cw_image/34e33221d22/b76c04fb6317ae0d7fa81/1473924227_00029.jpg",
-      "battleCry": "It's 67 degrees Outside and I Hate You",
-      "favoritesNumber":40
+      "battleCry": "It's 67 degrees Outside and I Hate You.",
+      "favoritesNumber": 40
     },
     {
       "id": 4,
       "handle": "Tabitha",
       "image": "https://dg31sz3gwrwan.cloudfront.net/actor/382206/65799403_medium-optimized-2.jpg",
-      "battleCry": "Ill claw your eyes out",
-      "favoritesNumber":32
+      "battleCry": "Ill claw your eyes out.",
+      "favoritesNumber": 32
     },
     {
       "id": 5,
       "handle": "Gir",
       "image": "https://th.bing.com/th/id/R.e663b3b061185ed5c24b8554023159dc?rik=svITAUOKYjQW7g&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20121113172834%2fzimwiki%2fimages%2f9%2f90%2fEvil_GIR.png&ehk=0M1yHHwnRrItosHSu1Nu33F8NrwYLxsSVXnSLT5yqU8%3d&risl=&pid=ImgRaw&r=0",
-      "battleCry": "Taco.Taco.Taco",
-      "favoritesNumber":9
+      "battleCry": "Taco.Taco.Taco.",
+      "favoritesNumber": 9
     },
     {
       "id": 6,
       "handle": "Mandy",
       "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d355a1ea-8fba-413a-8973-5eab99e7a046/d9u6qa3-2c8c9762-ff52-4786-b008-7c023d4a79b2.png/v1/fill/w_894,h_894,strp/mandy_vs_grim_by_waffengrunt_d9u6qa3-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2QzNTVhMWVhLThmYmEtNDEzYS04OTczLTVlYWI5OWU3YTA0NlwvZDl1NnFhMy0yYzhjOTc2Mi1mZjUyLTQ3ODYtYjAwOC03YzAyM2Q0YTc5YjIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.abAiv4BArjmDkTut6SpbJvXsSPKTdliuAAO4OvCDrhU",
-      "battleCry": "Whatever you do, don't look behind you",
-      "favoritesNumber":70
+      "battleCry": "Whatever you do, don't look behind you.",
+      "favoritesNumber": 70
     },
     {
       "id": 7,
       "handle": "Pam Poovey",
       "image": "https://img2.looper.com/img/gallery/the-real-reason-pam-sounds-different-in-archer-exclusive/fighting-eating-and-bear-claws-1601480038.jpg",
-      "battleCry": "Make sure you shut your dick holster",
-      "favoritesNumber":50
+      "battleCry": "Make sure you shut your dick holster.",
+      "favoritesNumber": 50
     },
     {
       "id": 8,
       "handle": "Linda Belcher",
       "image": "https://tvline.com/wp-content/uploads/2021/05/best-tv-moms-linda-belcher-bobs-burgers.png?w=620&h=427&crop=1",
       "battleCry": "I was going to punch you, but I'm holding wine",
-      "favoritesNumber":60
+      "favoritesNumber": 60
     },
     {
       "id": 9,
       "handle": "Bender",
       "image": "https://th.bing.com/th/id/OIP.Zq4Cp0TFmo7wEUKvBio1ygAAAA?pid=ImgDet&w=348&h=412&rs=1",
       "battleCry": "Hey,sexy mama.Wanna kill all humans?",
-      "favoritesNumber":47
+      "favoritesNumber": 47
     },
     {
       "id": 10,
       "handle": "Steve Smith",
       "image": "https://cps-static.rovicorp.com/2/Open/FOX_7/Program/19229430/_3by4/_derived_jpg_q90_500x500_m0/AmericanDad_EP%2016_Cropped.jpg",
       "battleCry": "Lavate Las Manos!!! Lavate Las Manos",
-      "favoritesNumber":56
+      "favoritesNumber": 56
+    },
+    {
+      "id": 11,
+      "handle": "CatdDog",
+      "image": "https://th.bing.com/th/id/R.e8299b2eeec6f90f2834e19863e0d80f?rik=BqfCpxg%2bfBWAiQ&pid=ImgRaw&r=0",
+      "battleCry": "catdog catdog",
+      "favoritesNumber": "50"
     }
   ]
 }
