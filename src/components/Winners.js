@@ -31,7 +31,7 @@ function Winners({winnerArray,fightersArray}){
     <main>
         <h1 className='Winner'>Here Are Your Winners</h1>
         <div className='display'>{usersWinners}</div>
-        <h1 className='Winner'> Here Are The Winners Of The Rounds</h1>
+        <h1 className='Winner'> Winners Of The Rounds</h1>
         <h3 className='Winner'> You got {matches} correct</h3>
         <div className='display'>{actuallyWinners}</div>
     </main>)

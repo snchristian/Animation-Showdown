@@ -13,6 +13,7 @@ body,html {
    left: 50%;
    transform: translate(-50%, -50%);
    background-color: cyan;
+   margin-left: 10px;
 }
 
 .home {
@@ -23,7 +24,7 @@ body,html {
   color: black;
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100%; 
 }
 
 .title{
@@ -36,6 +37,7 @@ body,html {
   padding:  10px 20px;
   background-color: #9ACD32;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 .begin:hover{

@@ -12,6 +12,7 @@ function FighterForm(){
         handle:"",
         image:"",
         battleCry:"",
+        favoritesNumber:"",
 
     });
 
@@ -26,13 +27,16 @@ function FighterForm(){
         setNewFighter({
             handle:"",
             image:"",
-            battleCry:""
+            battleCry:"",
+            favoritesNumber:"",
+
         })
         const newFighter={
             id:fighters.id+1,
             handle:newFighterData.handle,
             image:newFighterData.image,
             battleCry:newFighterData.battleCry,
+            favoritesNumber:newFighterData.favoritesNumber,
         }
         console.log(newFighter)
         fetch("http://localhost:4000/fighters",{
@@ -69,6 +73,13 @@ function FighterForm(){
                     type="text"
                     name="battleCry"
                     value={newFighterData.battleCry}
+                    onChange={handleChange}/>
+                </label>
+                <label>FavoritesNumber:
+                    <input
+                    type="text"
+                    name="favoritesNumber"
+                    value={newFighterData.favoritesNumber}
                     onChange={handleChange}/>
                 </label>
                 <button type="submit">Add Fighter</button>
