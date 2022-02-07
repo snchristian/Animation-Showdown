@@ -12,17 +12,18 @@ import Box from '@mui/material/Box';
 
 
 function CharacterList () {
-
+    const [fighters]=useContext(FighterContext)
     const Item = styled(Paper)(({ theme }) => ({
         ...theme.typography.body2,
         padding: theme.spacing(0),
         textAlign: 'center',
         color: theme.palette.text.secondary,
+        margin:"10px"
       }));
       
 
 
-    const [fighters]=useContext(FighterContext)
+    
     console.log(fighters)
     
    
@@ -45,7 +46,7 @@ function CharacterList () {
           {displayFighters}
       </Grid>
     </Box>
-    {/* flexGrow: 0.5, */}
+    
   </main>
     )
 }

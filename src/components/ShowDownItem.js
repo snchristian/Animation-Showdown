@@ -5,16 +5,14 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-
-
 function ShowDownItem ({fighter}){
 
 return (
 <>
-<Card sx={{ maxWidth: 345, marginBottom:"20px", marginTop:"30px"
+<Card sx={{ maxWidth: 345, marginBottom:"20px", marginTop:"30px", textAlign:"center"
 }}>
       <CardActionArea>
-        <Typography gutterBottom variant="h4" component="div">
+        <Typography gutterBottom variant="h4" component="div" >
             {fighter.handle}
           </Typography>
         <CardMedia

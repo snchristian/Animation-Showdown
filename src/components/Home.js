@@ -14,7 +14,7 @@ function Home(){
         <main className="home">
             <div className="image">
             <h1 className="title">Animation Showdown</h1>
-            <h3>Who do think would win when we pit your favortie characters from different animated shows against each other</h3>
+            <h3>Who do think would win when we pit your favortie characters from different animated shows against each other.After 5 rounds a Random Winner will be picked. Do you think you have the wit to pick all 5 Winners</h3>
             <button className="begin" onClick={handleRedirect}>Start</button>
             </div> 
         </main>

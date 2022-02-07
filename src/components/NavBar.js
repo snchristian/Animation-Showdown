@@ -5,10 +5,10 @@ function Navbar(){
     return(
         <>
         <Nav>
-        <NavLink to="/">Animation ShowDown</NavLink>
+        <NavLink to="/">ANIMATION SHOWDOWN</NavLink>
         <NavMenu>
-        <NavLink to="/showdown" activestyle="true">Versus</NavLink>
-        <NavLink to="/CharcterList" activestyle="true">Fighters</NavLink>
+        <NavLink to="/showdown" activestyle="true">VERSUS</NavLink>
+        <NavLink to="/CharcterList" activestyle="true">FIGHTERS</NavLink>
         </NavMenu>
         </Nav>
         </>
