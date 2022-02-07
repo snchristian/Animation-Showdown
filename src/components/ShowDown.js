@@ -56,7 +56,6 @@ function ShowDown(){
 
     useEffect(() => {
     
-        // if(fighter1Card && fighter2Card === {"id": "", "handle": "", "image": "", "battleCry": ""})
         setFighter1(getRandomFighter)
         setFighter2(getRandomFighter)
            return()=>{

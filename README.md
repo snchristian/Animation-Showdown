@@ -15,7 +15,7 @@ In this project, using a Json server, I created a fighter mini-game. This app al
 
 Fork and clone this repository
 
- - ` git clone `
+ - ` git clone git@github.com:(username)/Animation-Showdown.git`
 
  - ` json-server --watch db.json --port 4000`
 
