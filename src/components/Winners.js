@@ -1,6 +1,6 @@
 
 import React from 'react'
-import ShowDownItem from './ShowDownItem'
+import ShowDownItem from './VersusItem'
 
 function Winners({winnerArray,fightersArray}){
     let matches = 0

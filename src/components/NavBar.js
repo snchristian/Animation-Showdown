@@ -7,7 +7,7 @@ function Navbar(){
         <Nav>
         <NavLink to="/">ANIMATION SHOWDOWN</NavLink>
         <NavMenu>
-        <NavLink to="/showdown" activestyle="true">VERSUS</NavLink>
+        <NavLink to="/Versus" activestyle="true">VERSUS</NavLink>
         <NavLink to="/CharcterList" activestyle="true">FIGHTERS</NavLink>
         </NavMenu>
         </Nav>

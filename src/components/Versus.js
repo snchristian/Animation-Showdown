@@ -1,20 +1,16 @@
-
 import React, {useState,useEffect,useCallback} from "react"
 // import {FighterContext} from "../context/fighter"
-import ShowDownItem from "./ShowDownItem"
+import VersusItem from "./VersusItem"
 import Winners from "./Winners"
 
-
-
-function ShowDown(){
-    // const [fighters] = useContext(FighterContext)
-
+function Versus(){
+    // const [fighters,setFighters] = useContext(FighterContext)
+   
     const [fighters,setFighters] = useState([])
     const [winnerArray, setWinnerArray] = useState([])
     const[round,setRound]=useState(1)
-    let winningValue= Math.floor(Math.random() * 120)
     const [fightersArray, setFightersArray]=useState([])
-    console.log(winningValue)
+    let winningValue= Math.floor(Math.random() * 120)
     
     useEffect(()=>{
     fetch("http://localhost:4000/fighters")
@@ -39,20 +35,12 @@ function ShowDown(){
     "image": "",
     "battleCry": ""})
 
-    
-    
-    // function getRandomFighter(){
-    //     return fighters[Math.floor(Math.random()*fighters.length)]
-    // }
-
     const getRandomFighter = useCallback(
         () => {
             return fighters[Math.floor(Math.random()*fighters.length)]
         },
         [fighters]
     )
-
-
 
     useEffect(() => {
     
@@ -65,29 +53,27 @@ function ShowDown(){
          
     },[getRandomFighter])
 
-    
     function renderFighter1(){
         if(fighter1Card === fighter2Card){
              setFighter1(getRandomFighter())
-            return <ShowDownItem
+            return <VersusItem
                     fighter={fighter1Card}
             />
         }
         else{
-            return <ShowDownItem
+            return <VersusItem
             fighter={fighter1Card}/>    
         } 
     } 
 
     function renderFighter2(){
-            return <ShowDownItem
+            return <VersusItem
                 fighter={fighter2Card}
         />
         }   
 
     function handleWinner1(){
          if (fighter1Card.favoritesNumber < winningValue){
-             console.log("YEAH")
             setFightersArray([...fightersArray,fighter1Card]) 
          } else{
              setFightersArray([...fightersArray,fighter2Card])
@@ -100,7 +86,6 @@ function ShowDown(){
         
     function handleWinner2(){
         if (fighter2Card.favoritesNumber < winningValue){
-            console.log("YEAH")
            setFightersArray([...fightersArray,fighter2Card]) 
         } else{
             setFightersArray([...fightersArray,fighter1Card])
@@ -108,19 +93,16 @@ function ShowDown(){
             setRound(round +1)
             setWinnerArray([...winnerArray,fighter2Card])
             setFighter2(getRandomFighter())
-            removeWinner(fighter2Card)
-        
-        
+            removeWinner(fighter2Card)    
     }
-    console.log(fightersArray)
-   console.log(winnerArray)
-         function handleWinnerArray(){
+         function handleWinnerArray(){  
         if(winnerArray.length === 5){
-            return <Winners 
+            return<Winners 
             winnerArray={winnerArray}
             fightersArray={fightersArray}
-            />
+            />         
         }
+        
     }
 
     function renderFighterButtons(){
@@ -130,17 +112,15 @@ function ShowDown(){
             <h2 className="Winner">ROUND:{round}</h2> 
             <div className="button" id="fighter1" roll="button" onClick={handleWinner1}>{renderFighter1()}</div>
             <div className="button1" id="fighter2" roll="button" onClick={handleWinner2}>{renderFighter2()}</div>
-            </div>
-            
+            </div>   
         )
     }
    
     return(
         <main>
-            {!fighter1Card ? <h1>Is Loading</h1> : winnerArray.length <5 ? renderFighterButtons() : handleWinnerArray() }
-            {/* {handleWinnerArray()} */}
+            {!fighter1Card ? <h1>Loading...</h1> : winnerArray.length <5 ? renderFighterButtons() : handleWinnerArray() }
         </main>
     )
 }
 
-export default ShowDown;
+export default Versus;

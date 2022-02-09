@@ -6,11 +6,13 @@ import {FighterProvider} from "./context/fighter"
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
+  <React.StrictMode>
   <Router>
     <FighterProvider>
     <App />
     </FighterProvider>
-  </Router>,
+  </Router>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

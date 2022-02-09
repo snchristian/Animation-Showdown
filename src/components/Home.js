@@ -6,9 +6,8 @@ function Home(){
     const history=useNavigate()
 
     function handleRedirect(){
-        history("/showdown")
+        history("/versus")
     }
-
 
     return(
         <main className="home">

@@ -58,6 +58,7 @@ function FighterForm(){
                     <input
                     type="text"
                     name="handle"
+                    placeholder="Enter Your Fighters Name"
                     value={newFighterData.handle}
                     onChange={handleChange}/>
                 </label>
@@ -65,6 +66,7 @@ function FighterForm(){
                     <input
                     type="text"
                     name="image"
+                    placeholder="Image for Your Fighter"
                     value={newFighterData.image}
                     onChange={handleChange}/>
                 </label>
@@ -72,6 +74,7 @@ function FighterForm(){
                     <input
                     type="text"
                     name="battleCry"
+                    placeholder="Enter Your Fighters War Cry"
                     value={newFighterData.battleCry}
                     onChange={handleChange}/>
                 </label>
@@ -79,6 +82,7 @@ function FighterForm(){
                     <input
                     type="text"
                     name="favoritesNumber"
+                    placeholder="Enter Your Fighters Favorite Number"
                     value={newFighterData.favoritesNumber}
                     onChange={handleChange}/>
                 </label>
