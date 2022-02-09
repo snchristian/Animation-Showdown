@@ -69,30 +69,35 @@ body,html {
   padding-left: 50px;
   padding-right: 30px;
 }
+.formTitle{
+  font-family: 'Modak', cursive;
+}
 
-.inline{
+.form{
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
-.inline label{
+.form label{
   margin: 5px 10px 5px;
+  font-family: 'Modak', cursive;
+  font-size: 20px;
 }
 
-.inline input{
+.form input{
   margin: 5px 10px 5px;
   padding: 10px;
   background-color: #fff;
   border: 1px solid black;
 
 }
-.inline button{
+.form button{
   padding:  10px 20px;
   background-color: #9ACD32;
   color: white;
   
 }
 
-.inline button:hover{
+.form button:hover{
   background-color: tomato;
 }
